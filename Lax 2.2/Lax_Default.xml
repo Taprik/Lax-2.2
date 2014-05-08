@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "Lax[1]">
+	<slot number = "1">
+		<pattr name = "monitoring" value = "1" />
+		<pattr name = "level_in" value = "68.627441" />
+		<pattr name = "level_out" value = "59" />
+		<patcher name = "info">
+			<pattr name = "disp_menu" value = "0" />
+			<pattr name = "rec_menu" value = "&quot;320 x 240&quot;" />
+			<pattr name = "rec_menu2" value = "jpeg" />
+			<pattr name = "posx[1]" value = "1587" />
+			<pattr name = "posy[1]" value = "65" />
+			<pattr name = "port[1]" value = "0" />
+			<pattr name = "IP" value = "0" />
+		</patcher>
+		<patcher name = "looper">
+			<patcher name = "effets_input">
+				<patcher name = "parame">
+					<pattr name = "ec1" value = "0." />
+					<pattr name = "ec10" value = "0." />
+					<pattr name = "ec12" value = "0." />
+					<pattr name = "ec17" value = "0." />
+					<pattr name = "ec18" value = "0." />
+					<pattr name = "ec19" value = "0" />
+					<pattr name = "ec2" value = "0." />
+					<pattr name = "ec20" value = "0" />
+					<pattr name = "ec21" value = "0" />
+					<pattr name = "ec22" value = "0." />
+					<pattr name = "ec23" value = "0." />
+					<pattr name = "ec29" value = "0." />
+					<pattr name = "ec3" value = "0." />
+					<pattr name = "ec30" value = "0." />
+					<pattr name = "ec31" value = "0." />
+					<pattr name = "ec34" value = "1" />
+					<pattr name = "ec35" value = "0" />
+					<pattr name = "ec6" value = "1" />
+					<pattr name = "ec7" value = "1" />
+					<pattr name = "ec8" value = "0" />
+					<pattr name = "ec9" value = "0." />
+					<pattr name = "menu1" value = "0" />
+					<pattr name = "multi_menu[0]" value = "Random" />
+					<pattr name = "multi_menu[1]" value = "Random" />
+				</patcher>
+			</patcher>
+			<patcher name = "effets_output">
+				<patcher name = "parame">
+					<pattr name = "eg11" value = "0." />
+					<pattr name = "eg12" value = "0.03" />
+					<pattr name = "eg14" value = "1." />
+					<pattr name = "eg15" value = "1." />
+					<pattr name = "eg16" value = "1." />
+					<pattr name = "eg17" value = "0.02" />
+					<pattr name = "eg18" value = "-0.69" />
+					<pattr name = "eg19" value = "0.21" />
+					<pattr name = "eg19[1]" value = "6" />
+					<pattr name = "eg19[2]" value = "0.4" />
+					<pattr name = "eg2" value = "0." />
+					<pattr name = "eg20" value = "0." />
+					<pattr name = "eg21" value = "0." />
+					<pattr name = "eg22" value = "0." />
+					<pattr name = "eg23" value = "1.8" />
+					<pattr name = "eg25" value = "0.04" />
+					<pattr name = "eg26" value = "0.4" />
+					<pattr name = "eg4" value = "0" />
+					<pattr name = "eg5" value = "0." />
+					<pattr name = "eg6" value = "0." />
+					<pattr name = "eg8" value = "0." />
+					<pattr name = "eg8[1]" value = "0." />
+					<pattr name = "eg8[2]" value = "0." />
+				</patcher>
+			</patcher>
+			<patcher name = "lecteur_tranche">
+				<patcher name = "Octaver">
+					<pattr name = "action1" value = "0" />
+					<pattr name = "action10" value = "0" />
+					<pattr name = "action11" value = "0" />
+					<pattr name = "action12" value = "0" />
+					<pattr name = "action2" value = "0" />
+					<pattr name = "action3" value = "0" />
+					<pattr name = "action4" value = "0" />
+					<pattr name = "action5" value = "0" />
+					<pattr name = "action6" value = "0" />
+					<pattr name = "action7" value = "0" />
+					<pattr name = "action8" value = "0" />
+					<pattr name = "action9" value = "0" />
+					<patcher name = "selecteur_tranche">
+						<pattr name = "0_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[1]">
+						<pattr name = "1_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[2]">
+						<pattr name = "2_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[3]">
+						<pattr name = "3_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[4]">
+						<pattr name = "4_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[5]">
+						<pattr name = "5_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[6]">
+						<pattr name = "6_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[7]">
+						<pattr name = "7_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[8]">
+						<pattr name = "8_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[9]">
+						<pattr name = "9_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[10]">
+						<pattr name = "10_barre" value = "0 0" />
+					</patcher>
+					<patcher name = "selecteur_tranche[11]">
+						<pattr name = "11_barre" value = "0 0" />
+					</patcher>
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "video_input">
+			<pattr name = "video_menu[1]" value = "Camera" />
+			<patcher name = "network">
+				<pattr name = "resolution" value = "&quot;160 x 120&quot;" />
+				<pattr name = "port" value = "0" />
+			</patcher>
+			<patcher name = "sampleur">
+				<pattr name = "chemin" value = "&quot;HDD:/DATAS/media video/&quot;" />
+			</patcher>
+			<patcher name = "video_in">
+				<pattr name = "resolution" value = "&quot;320 x 240&quot;" />
+			</patcher>
+		</patcher>
+		<patcher name = "audio_input">
+			<pattr name = "choix_in[1]" value = "Micro" />
+			<patcher name = "samp_audio">
+				<pattr name = "chemin" value = "0" />
+			</patcher>
+			<patcher name = "mic">
+				<pattr name = "mono" value = "0" />
+			</patcher>
+		</patcher>
+		<patcher name = "interface_in">
+			<patcher name = "Lax_key">
+				<patcher name = "key_deal">
+					<pattr name = "loop_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[1]">
+					<pattr name = "undo_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[2]">
+					<pattr name = "stop_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[3]">
+					<pattr name = "pause_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[4]">
+					<pattr name = "reset_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[5]">
+					<pattr name = "sound_on_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[6]">
+					<pattr name = "compositing_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[7]">
+					<pattr name = "fullscreen_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[8]">
+					<pattr name = "play_video_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[9]">
+					<pattr name = "play_audio_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[10]">
+					<pattr name = "sample1_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[11]">
+					<pattr name = "sample2_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[23]">
+					<pattr name = "sample3_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[22]">
+					<pattr name = "sample4_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[21]">
+					<pattr name = "sample5_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[20]">
+					<pattr name = "sample6_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[19]">
+					<pattr name = "sample7_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[18]">
+					<pattr name = "sample8_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[17]">
+					<pattr name = "sample9_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[16]">
+					<pattr name = "sample10_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[15]">
+					<pattr name = "sample11_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[14]">
+					<pattr name = "sample12_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[13]">
+					<pattr name = "speed0.25_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[12]">
+					<pattr name = "speed0.33_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[31]">
+					<pattr name = "speed0.5_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[30]">
+					<pattr name = "speed0.66_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[29]">
+					<pattr name = "speed1_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[28]">
+					<pattr name = "speed1.33_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[27]">
+					<pattr name = "speed2_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[26]">
+					<pattr name = "speed3_key" value = "-1" />
+				</patcher>
+				<patcher name = "key_deal[25]">
+					<pattr name = "speed4_key" value = "-1" />
+				</patcher>
+			</patcher>
+			<patcher name = "Lax_midi">
+				<pattr name = "Mix_channel[1]" value = "0" />
+				<pattr name = "Mix_channel[2]" value = "0" />
+				<pattr name = "maxi_speed1" value = "0." />
+				<pattr name = "maxi_speed2" value = "0." />
+				<pattr name = "mini_speed1" value = "0." />
+				<pattr name = "mini_speed2" value = "0." />
+				<patcher name = "controleur_note">
+					<pattr name = "loop_note" value = "0" />
+					<pattr name = "loop_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[2]">
+					<pattr name = "undo_note" value = "0" />
+					<pattr name = "undo_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[3]">
+					<pattr name = "stop_note" value = "0" />
+					<pattr name = "stop_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[4]">
+					<pattr name = "pause_note" value = "0" />
+					<pattr name = "pause_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[5]">
+					<pattr name = "reset_note" value = "0" />
+					<pattr name = "reset_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[6]">
+					<pattr name = "sound_on_note" value = "0" />
+					<pattr name = "sound_on_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[7]">
+					<pattr name = "compositing_note" value = "0" />
+					<pattr name = "compositing_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[8]">
+					<pattr name = "fullscreen_note" value = "0" />
+					<pattr name = "fullscreen_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[9]">
+					<pattr name = "play_video_note" value = "0" />
+					<pattr name = "play_video_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[10]">
+					<pattr name = "play_audio_note" value = "0" />
+					<pattr name = "play_audio_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[11]">
+					<pattr name = "sample1_note" value = "0" />
+					<pattr name = "sample1_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[22]">
+					<pattr name = "sample2_note" value = "0" />
+					<pattr name = "sample2_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[21]">
+					<pattr name = "sample3_note" value = "0" />
+					<pattr name = "sample3_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[20]">
+					<pattr name = "sample4_note" value = "0" />
+					<pattr name = "sample4_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[19]">
+					<pattr name = "sample5_note" value = "0" />
+					<pattr name = "sample5_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[18]">
+					<pattr name = "sample6_note" value = "0" />
+					<pattr name = "sample6_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[17]">
+					<pattr name = "sample7_note" value = "0" />
+					<pattr name = "sample7_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[16]">
+					<pattr name = "sample8_note" value = "0" />
+					<pattr name = "sample8_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[15]">
+					<pattr name = "sample9_note" value = "0" />
+					<pattr name = "sample9_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[14]">
+					<pattr name = "sample10_note" value = "0" />
+					<pattr name = "sample10_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[13]">
+					<pattr name = "sample11_note" value = "0" />
+					<pattr name = "sample11_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[12]">
+					<pattr name = "sample12_note" value = "0" />
+					<pattr name = "sample12_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[33]">
+					<pattr name = "speed1/4_note" value = "0" />
+					<pattr name = "speed1/4_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[31]">
+					<pattr name = "speed1/3_note" value = "0" />
+					<pattr name = "speed1/3_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[30]">
+					<pattr name = "speed1/2_note" value = "0" />
+					<pattr name = "speed1/2_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[29]">
+					<pattr name = "speed2/3_note" value = "0" />
+					<pattr name = "speed2/3_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[28]">
+					<pattr name = "speed1_note" value = "0" />
+					<pattr name = "speed1_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[27]">
+					<pattr name = "speed3/2_note" value = "0" />
+					<pattr name = "speed3/2_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[26]">
+					<pattr name = "speed2_note" value = "0" />
+					<pattr name = "speed2_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[25]">
+					<pattr name = "speed3_note" value = "0" />
+					<pattr name = "speed3_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[24]">
+					<pattr name = "speed4_note" value = "0" />
+					<pattr name = "speed4_channel" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[23]">
+					<pattr name = "switch_audio_note" value = "0" />
+					<pattr name = "switch_audio_channel" value = "-1" />
+				</patcher>
+				<patcher name = "control_controleur">
+					<pattr name = "sound_input_note" value = "0" />
+					<pattr name = "sound_input_channel" value = "-1" />
+				</patcher>
+				<patcher name = "control_controleur[1]">
+					<pattr name = "sound_output_note" value = "0" />
+					<pattr name = "sound_output_channel" value = "-1" />
+				</patcher>
+				<patcher name = "control_controleur[2]">
+					<pattr name = "mix_video_note" value = "0" />
+					<pattr name = "mix_video_channel" value = "-1" />
+				</patcher>
+			</patcher>
+			<patcher name = "Lax_preset">
+				<pattr name = "freq" value = "&quot;15 f/s&quot;" />
+				<pattr name = "latence[1]" value = "&quot;1 frame&quot;" />
+				<pattr name = "dure" value = "&quot;5 sec&quot;" />
+				<pattr name = "format[1]" value = "&quot;320 x 240&quot;" />
+			</patcher>
+			<patcher name = "Lax_wii">
+				<pattr name = "Auth[0]" value = "Free" />
+				<pattr name = "Auth[10]" value = "Free" />
+				<pattr name = "Auth[1]" value = "Free" />
+				<pattr name = "Auth[2]" value = "Free" />
+				<pattr name = "Auth[3]" value = "Free" />
+				<pattr name = "Auth[4]" value = "Free" />
+				<pattr name = "Auth[5]" value = "Free" />
+				<pattr name = "Auth[6]" value = "Free" />
+				<pattr name = "Auth[7]" value = "Free" />
+				<pattr name = "Auth[8]" value = "Free" />
+				<pattr name = "Auth[9]" value = "Free" />
+				<pattr name = "choice[0]" value = "0" />
+				<pattr name = "choice[1]" value = "0" />
+				<pattr name = "choice[2]" value = "0" />
+				<pattr name = "choice[3]" value = "0" />
+				<pattr name = "choice[4]" value = "0" />
+				<pattr name = "choice[5]" value = "0" />
+				<pattr name = "choice[6]" value = "0" />
+				<pattr name = "choice[7]" value = "0" />
+				<pattr name = "maxi_speed1" value = "0." />
+				<pattr name = "maxi_speed2" value = "0." />
+				<pattr name = "mini_speed1" value = "0." />
+				<pattr name = "mini_speed2" value = "0." />
+				<pattr name = "rot[0]" value = "None" />
+				<pattr name = "rot[1]" value = "None" />
+				<pattr name = "rot[2]" value = "None" />
+			</patcher>
+			<patcher name = "Lax_arduino">
+				<pattr name = "maxi_speed1" value = "0." />
+				<pattr name = "maxi_speed2" value = "0." />
+				<pattr name = "mini_speed1" value = "0." />
+				<pattr name = "mini_speed2" value = "0." />
+				<patcher name = "controleur_note">
+					<pattr name = "loop_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[2]">
+					<pattr name = "undo_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[3]">
+					<pattr name = "stop_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[4]">
+					<pattr name = "pause_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[5]">
+					<pattr name = "reset_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[6]">
+					<pattr name = "sound_on_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[7]">
+					<pattr name = "compositing_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[8]">
+					<pattr name = "fullscreen_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[9]">
+					<pattr name = "play_video_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[10]">
+					<pattr name = "play_audio_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[11]">
+					<pattr name = "sample1_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[22]">
+					<pattr name = "sample2_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[21]">
+					<pattr name = "sample3_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[20]">
+					<pattr name = "sample4_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[19]">
+					<pattr name = "sample5_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[18]">
+					<pattr name = "sample6_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[17]">
+					<pattr name = "sample7_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[16]">
+					<pattr name = "sample8_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[15]">
+					<pattr name = "sample9_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[14]">
+					<pattr name = "sample10_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[13]">
+					<pattr name = "sample11_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[12]">
+					<pattr name = "sample12_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[33]">
+					<pattr name = "speed1/4_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[31]">
+					<pattr name = "speed1/3_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[30]">
+					<pattr name = "speed1/2_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[29]">
+					<pattr name = "speed2/3_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[28]">
+					<pattr name = "speed1_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[27]">
+					<pattr name = "speed3/2_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[26]">
+					<pattr name = "speed2_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[25]">
+					<pattr name = "speed3_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[24]">
+					<pattr name = "speed4_digit" value = "-1" />
+				</patcher>
+				<patcher name = "controleur_note[23]">
+					<pattr name = "switch_audio_digit" value = "-1" />
+				</patcher>
+				<patcher name = "control_controleur">
+					<pattr name = "sound_input_autho" value = "0" />
+					<pattr name = "sound_input_analog" value = "-1" />
+				</patcher>
+				<patcher name = "control_controleur[1]">
+					<pattr name = "sound_output_autho" value = "0" />
+					<pattr name = "sound_output_analog" value = "-1" />
+				</patcher>
+				<patcher name = "control_controleur[2]">
+					<pattr name = "mix_video_autho" value = "0" />
+					<pattr name = "mix_video_analog" value = "-1" />
+				</patcher>
+				<patcher name = "arduino">
+					<pattr name = "check[0]" value = "0" />
+					<pattr name = "check[10]" value = "0" />
+					<pattr name = "check[11]" value = "0" />
+					<pattr name = "check[12]" value = "0" />
+					<pattr name = "check[13]" value = "0" />
+					<pattr name = "check[14]" value = "0" />
+					<pattr name = "check[15]" value = "0" />
+					<pattr name = "check[16]" value = "0" />
+					<pattr name = "check[17]" value = "0" />
+					<pattr name = "check[1]" value = "0" />
+					<pattr name = "check[2]" value = "0" />
+					<pattr name = "check[3]" value = "0" />
+					<pattr name = "check[4]" value = "0" />
+					<pattr name = "check[5]" value = "0" />
+					<pattr name = "check[6]" value = "0" />
+					<pattr name = "check[7]" value = "0" />
+					<pattr name = "check[8]" value = "0" />
+					<pattr name = "check[9]" value = "0" />
+				</patcher>
+				<patcher name = "control_controleur[3]">
+					<pattr name = "speed_video_autho" value = "0" />
+					<pattr name = "speed_video_analog" value = "-1" />
+				</patcher>
+				<patcher name = "control_controleur[4]">
+					<pattr name = "speed_loop_autho" value = "0" />
+					<pattr name = "speed_loop_analog" value = "-1" />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "Lax_transport">
+			<pattr name = "noires" value = "0" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

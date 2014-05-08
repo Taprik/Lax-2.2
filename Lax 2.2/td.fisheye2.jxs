@@ -1,0 +1,68 @@
+<jittershader name="fisheye2">
+	<param name="scale" type="float" default="2.0" />
+	<param name="curvature" type="float" default="2.0" />
+	<language name="glsl" version="1.0">
+		<bind param="scale" program="fp" />
+		<bind param="curvature" program="fp" />		
+		<program name="vp" type="vertex">
+<![CDATA[
+//
+// Vertex shader
+//
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+void main(void)
+{
+    gl_Position = ftransform();
+    texcoord0 = vec2 (gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+}
+]]>
+		</program>
+		<program name="fp" type="fragment">
+<![CDATA[
+///////////////////////////////////////////////////////////////////////////////
+//
+// Shaders Ahoy! by Ivica Ico Bukvic http://ico.bukvic.net
+//
+// Some of the algorithms borrowed (as noted) from Libero Spagnolini and his
+// awesome PhotoBooth demystified demo. For more info on Libero's work please
+// visit: http://dem.ocracy.org/libero/photobooth/
+//
+///////////////////////////////////////////////////////////////////////////////
+
+uniform sampler2DRect tex0;
+uniform float scale;
+uniform float curvature;
+
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+void main(void)
+{
+	vec4 input0 = texture2DRect(tex0, texcoord0);
+	vec2 translate0 = texcoord0;
+	
+	//let's normalize output
+	vec2 normtranslate0 = translate0/texdim0; //x and y are now between 0 and 1
+	normtranslate0 = normtranslate0 * 2.0 - 1.0; //now x and y are between -1 and 1
+	
+	//lets get polar data
+	float radius = length(normtranslate0);//radius from center of the image which is currently 0,0
+	float phi = atan(normtranslate0.y, normtranslate0.x); //get angle for polar coords
+	
+	//do the scary math
+	radius = pow(radius,curvature) / sqrt(scale); //many thanks to Libero Spagnolini and his PhotoBooth demystified demo
+	
+	//patch it all back up
+	normtranslate0.x = radius * cos(phi);
+	normtranslate0.y = radius * sin(phi);
+	translate0 = (normtranslate0 / 2.0 + 0.5) * texdim0;
+	
+	gl_FragColor = texture2DRect(tex0, translate0);
+}
+]]>		
+		</program>
+	</language>
+</jittershader>

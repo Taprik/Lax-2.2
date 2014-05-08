@@ -1,0 +1,47 @@
+<jittershader name="mirror">
+	<language name="glsl" version="1.0">
+		<program name="vp" type="vertex">
+<![CDATA[
+//
+// Vertex shader
+//
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+void main(void)
+{
+    gl_Position = ftransform();
+    texcoord0 = vec2 (gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+}
+]]>
+		</program>
+		<program name="fp" type="fragment">
+<![CDATA[
+///////////////////////////////////////////////////////////////////////////////
+//
+// Shaders Ahoy! by Ivica Ico Bukvic http://ico.bukvic.net
+//
+// Some of the algorithms borrowed (as noted) from Libero Spagnolini and his
+// awesome PhotoBooth demystified demo. For more info on Libero's work please
+// visit: http://dem.ocracy.org/libero/photobooth/
+//
+///////////////////////////////////////////////////////////////////////////////
+
+uniform sampler2DRect tex0;
+uniform float mode;
+
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+void main(void)
+{
+	vec4 input0 = texture2DRect(tex0, texcoord0);
+	vec2 translate0 = texcoord0;
+	translate0.x = texdim0.x - translate0.x;
+	gl_FragColor = texture2DRect(tex0, translate0);
+}
+]]>		
+		</program>
+	</language>
+</jittershader>
